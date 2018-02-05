@@ -13,10 +13,9 @@ class Question{
   static All() {
    return this._All;
  }
- static FindById(index){
-    return this.All().filter(function(question){
-      return question. === id;
-    })
+ static Find(id){
+    return this.All().[id-1]
+
 
 }
 Question._All = [];
