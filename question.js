@@ -15,7 +15,7 @@ class Question{
  }
  static FindById(index){
     return this.All().filter(function(question){
-      return question.id === id;
+      return question. === id;
     })
 
 }
