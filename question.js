@@ -13,6 +13,10 @@ class Question{
   static All() {
    return this._All;
  }
+ static FindById(id){
+    return this.All().filter(function(question){
+      return Question.id === id;
+    })
 
 }
 Question._All = [];
